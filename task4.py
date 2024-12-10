@@ -8,3 +8,16 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+num = 100
+
+while num > 9:
+    num = int(input('Enter a number less than 10: '))
+    if num > 9:
+        print('Number must be less than 10.')
+    else:
+        break
+
+print(people[num-1])
+
+#done
